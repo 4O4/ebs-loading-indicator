@@ -33,7 +33,7 @@ function Spinner(parentDOMElement) {
         .css({
             position: "fixed",
             zIndex: "10000",
-            left: 0,
+            left: -1,
             top: 50,
             background: "rgba(0, 0, 0, 0.65)",
             padding: "16px 0px 20px 28px",
