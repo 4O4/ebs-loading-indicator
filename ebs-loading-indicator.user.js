@@ -2,8 +2,8 @@
 // @name        EBS loading indicator
 // @namespace   github.com/4O4
 // @description Cool spinner which lets you know if Oracle EBS is making any async request
-// @include     https://*/OA_HTML/OA.jsp?*OAFunc=OAHOMEPAGE*
-// @version     1.0.0
+// @include     /^https?://.*/OA_HTML/OA.jsp\?.*(OAFunc=OAHOMEPAGE|\/HomePG|homePage=Y).*$/
+// @version     1.0.1
 // @require     https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js
 // @grant       none
 // ==/UserScript==
